@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>ABPInterceptorDemo</AssemblyName>
+        <RootNamespace>ABPInterceptorDemo</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Volo.Abp.Auditing" Version="7.0.0-rc.4" />
+      <PackageReference Include="Volo.Abp.Autofac" Version="7.0.0-rc.4" />
+      <PackageReference Include="Volo.Abp.Core" Version="7.0.0-rc.4" />
+      <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="7.0.0-rc.4" />
+    </ItemGroup>
+
+</Project>
