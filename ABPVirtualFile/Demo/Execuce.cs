@@ -4,7 +4,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.VirtualFileSystem;
 
 namespace ABPVirtualFile.Demo;
-
+[Dependency(ServiceLifetime.Scoped)]
 public class Execuce
 {
     private readonly IVirtualFileProvider _virtualFileProvider;

@@ -13,7 +13,7 @@ namespace ABPVirtualFile
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            context.Services.AddScoped<Execuce>();
+            //context.Services.AddScoped<Execuce>();
             Configure<AbpVirtualFileSystemOptions>(opt =>
             {
                 opt.FileSets.AddEmbedded<VirtualFileModule>(
